@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #00215E;
+    
+}
+body{
+    background: #ddd;
+
+}
+/*estilo a la barra de navegacion*/
+.img__logo{
+    width: 100px;
+
+}
+
+
+.header__bar{
+    display: flex;
+    justify-content:space-evenly;
+    background: #bbb;
+    width: 1000px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px #000;
+    margin-bottom: 50px;
+}
+
+.bar__ul{
+    padding: 10px;
+    margin: 0 0 0 40px;
+
+
+}
+
+.bar__nav{
+    width: 700px;
+    padding: 10px;
+    align-content: center;
+
+}
+
+.nav__item{
+    display:inline-block;
+    margin: 0 15px ;
+    
+}
+
+.nav__item a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 12px;
+    margin-top: 10px;    
+
+}
+
+.nav__item a:hover{
+    text-decoration: underline #00215E;
+    font-size: 15px;
+
+}
+/* estilo al footer*/
+
+footer{
+    display: flex;
+    background: #bbb;
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px #000;
+}
+
+
+.titulo__footer{
+    font-size: 15px;
+
+
+}
+
+.footer__bar{
+    display: flex;
+    justify-content:space-around;
+    background: #bbb;
+    width: 1000px;
+    margin: auto;
+
+}
+/* cuerpo*/
+.img__main{
+    width: 25%;
+    border-radius: 15%;
+    padding: 0 0 0 10px;
+}
+
+.main__sep{
+    padding: 20px 0 20px 0 ;
+
+}
+
+.main__container{
+    width: 1000px;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    padding: 50px 0;
+    background: #bbb;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px #000;
+
+}
+
+.main__section{
+    align-self: center;
+    padding: 30px 20px;
+    text-align: center;
+    height: 100%;
+
+}
+.main__section h1{
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+h2{
+    font-size: 20px;
+    padding-bottom:50px;
+    text-decoration: underline;
+}
+
+.main__section p{
+    font-size: 15px;
+}
+.section{
+    border-left: 3px solid #00215E;
+}
+/*cartas*/
+.card__container{
+    text-align: center;
+    padding: 50px 0;
+}
+.card {
+    width: 300px; 
+
+    background-color: #bbb;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 0px #000;
+    overflow: hidden; 
+    display: inline-block;
+    margin: 30px 20px;
+    border: 1px solid;
+    justify-items: center;
+    padding: 5px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 15px;
+    color: #666;
+}
+
+
+
+/**formulario **/
+.main__container-form{
+    border: 1px solid g;
+    display: flex;
+    justify-content: center;
+}
+
+
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+}
+
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+form input[type="text"], form input[type="email"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+
+textarea{
+	width:100%;
+	height:100px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;			
+	margin:8px 0;
+	/*resize: vertical | horizontal | none | both*/
+	resize:none;
+	display:block;
+
+    }
+
+    /* about-me*/
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#acerca-de-mi {
+    text-align: center;
+    padding: 50px 0;
+    }
+    
+#acerca-de-mi img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
+    }
